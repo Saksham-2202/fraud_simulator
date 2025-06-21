@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e9fafc, #71d7e4);
+    display:0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+#name{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+    
+.card {
+    background-color: white;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+
+h1 {
+    color: #00695c;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #4b4b4b;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.green {
+    background-color: #4caf50;
+}
+
+.green:hover {
+    background-color: #3b9242;
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.red:hover {
+    background-color: #d22b28;
+}
+
+.qr-code {
+    width: 350px;
+    height: 350px;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.transaction-id {
+    margin-top: -5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    
+
+}
+
+
+#mess{
+    border: 0px solid #333; /* Creates the box border */
+    padding: 15px;          /* Space inside the box */
+    margin-bottom: 10px;    /* Space below the box */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f1f1f1;
+}
+.btn_green{
+   padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn_green:hover{
+    background-color: #3b9242;
+}
